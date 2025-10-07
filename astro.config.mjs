@@ -8,6 +8,9 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://Argerie.github.io',
+base: 'my-repo',
+})
   integrations: [
     tailwind(),
     mdx(),
